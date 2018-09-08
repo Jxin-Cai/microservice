@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="center-eureka" />
+        <module name="microservice-jxin-service-api-member" />
+        <module name="microservice-jxin-service-api-order" />
+        <module name="microservice-jxin-service-config" />
+        <module name="microservice-jxin-service-impl-member" />
+        <module name="microservice-jxin-service-impl-order" />
+        <module name="microservice-jxin-service-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicejxinserviceapimember" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

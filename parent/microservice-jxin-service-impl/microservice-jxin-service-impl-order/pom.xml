@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>microservice-jxin-service-impl</artifactId>
+        <groupId>com.jxin</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>microservice-jxin-service-impl-order</artifactId>
+    <packaging>jar</packaging>
+    <dependencies>
+       <!-- 对order接口的依赖-->
+        <dependency>
+            <groupId>com.jxin</groupId>
+            <artifactId>microservice-jxin-service-api-order</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- 对member接口的依赖-->
+        <dependency>
+            <groupId>com.jxin</groupId>
+            <artifactId>microservice-jxin-service-api-member</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jxin</groupId>
+            <artifactId>microservice-jxin-service-utils</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
