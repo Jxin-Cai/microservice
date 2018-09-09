@@ -17,7 +17,6 @@
             <groupId>com.jxin</groupId>
             <artifactId>microservice-jxin-service-config</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>

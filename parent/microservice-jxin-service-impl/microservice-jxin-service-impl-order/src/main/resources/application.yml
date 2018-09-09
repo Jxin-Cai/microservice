@@ -26,3 +26,24 @@ eureka:
     ####需要检索服务
     fetch-registry: true
     registry-fetch-interval-seconds: 30
+###设置feign客户端超时时间
+###SpringCloud feign 默认开启支持ribbon
+ribbon:
+###指的是建立连接所用的时间，适用于网络状况正常的情况下，服务两端从未连接到连接所用的时间。
+ ReadTimeout: 5000
+###指的是建立连接后从服务器读取到可用资源所用的时间。
+ ConnectTimeout: 5000
+
+###开启Hystrix断路器
+feign:
+  hystrix:
+    enabled: true
+
+
+#### hystrix禁止服务超时时间，生产调整会5-10s
+hystrix:
+ command:
+   default:
+      execution:
+       timeout:
+        enabled: false

@@ -25,6 +25,12 @@
             <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.jxin</groupId>
+            <artifactId>microservice-jxin-service-config</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>

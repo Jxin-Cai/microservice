@@ -1,5 +1,6 @@
 package com.jxin.service.api;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.zalando.problem.Problem;
 
@@ -11,6 +12,6 @@ import org.zalando.problem.Problem;
 public interface OrderService {
 
     // 订单服务调用会员服务接口信息 feign
-    @RequestMapping("/orderToMember")
+    @RequestMapping(value = "/orderToMember",produces = MediaType.APPLICATION_JSON_VALUE)
     Problem orderToMember(String name);
 }
