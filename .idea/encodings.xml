@@ -2,15 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/center-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-member" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-order" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-api/microservicejxinserviceapimember" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-utils" charset="UTF-8" />
   </component>

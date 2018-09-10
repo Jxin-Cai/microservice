@@ -15,6 +15,7 @@
     <modules>
         <module>microservice-jxin-service-impl-order</module>
         <module>microservice-jxin-service-impl-member</module>
+        <module>microservice-jxin-service-impl-member2</module>
     </modules>
 
     <dependencies>

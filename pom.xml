@@ -9,7 +9,7 @@
     <version>${revision}</version>
     <modules>
         <module>parent</module>
-        <module>center-eureka</module>
+        <module>center</module>
     </modules>
     <packaging>pom</packaging>
     <name>microservice</name>
