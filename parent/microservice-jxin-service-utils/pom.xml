@@ -12,11 +12,5 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>microservice-jxin-service-utils</artifactId>
     <packaging>jar</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>com.jxin</groupId>
-            <artifactId>microservice-jxin-service-config</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
