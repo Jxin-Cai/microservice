@@ -42,6 +42,6 @@ public class MemberServiceImpl implements MemberService {
         } catch (Exception e) {
             log.error("休眠发生异常");
         }
-        return ProblemUtil.createProblem("成功调用休眠接口");
+        return ProblemUtil.createProblem("成功调用休眠接口",200,"正常过");
     }
 }

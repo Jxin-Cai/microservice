@@ -22,21 +22,11 @@ public class ProblemUtil {
         return builder.build();
     }
 
-    public static Problem createProblem(String detail, Object... datas) {
-        ProblemBuilder builder = Problem.builder().withDetail(detail).with("code", 0);
-        for (Object obj : datas) {
-            String name = getName(obj);
-            builder.with(name, obj);
-        }
-        return builder.build();
-    }
-
-    public static Problem createProblem(String detail, int code, Object... datas) {
+    public static Problem createProblem(String detail, int code, Object data) {
         ProblemBuilder builder = Problem.builder().withDetail(detail).with("code", code);
-        for (Object obj : datas) {
-            String name = getName(obj);
-            builder.with(name, obj);
-        }
+        String name = getName(data);
+        builder.with(name, data);
+
         return builder.build();
     }
 

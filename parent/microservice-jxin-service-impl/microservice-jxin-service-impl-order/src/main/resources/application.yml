@@ -37,7 +37,7 @@ ribbon:
 ###开启Hystrix断路器
 feign:
   hystrix:
-    enabled: true
+    enabled: 'true'
 
 
 #### hystrix禁止服务超时时间，生产调整会5-10s

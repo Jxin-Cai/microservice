@@ -1,6 +1,7 @@
 package com.jxin.service.feign;
 
 import com.jxin.service.api.MemberService;
+import com.jxin.service.fallback.MemberFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
@@ -8,6 +9,6 @@ import org.springframework.cloud.openfeign.FeignClient;
  * @date:创建时间 17:13 2018/9/7
  * @note:
  */
-@FeignClient("app-jxin-member")
+@FeignClient(value = "app-jxin-member",fallback = MemberFallback.class)
 public interface MemberServiceFeign extends MemberService {
 }

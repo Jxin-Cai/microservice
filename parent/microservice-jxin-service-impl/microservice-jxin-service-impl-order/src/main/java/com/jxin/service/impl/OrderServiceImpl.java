@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.zalando.problem.Problem;
 
+import javax.annotation.Resource;
+
 /**
  * @author:蔡佳新
  * @date:创建时间 10:03 2018/9/7
@@ -42,12 +44,20 @@ public class OrderServiceImpl  {
     // fallbackMethod 方法的作用：服务降级执行方法的指定
     // @HystrixCommand 默认开启线程池隔离方式,服务降级（包括活动线程占满降级和超时降级，超时降级默认1S）,服务熔断
     // 测试时需要设置Hystrix服务超时时间
+    //如果注解配置了回调方法，优先走回调方法
     @HystrixCommand(fallbackMethod = "getSleepAPI02HystrixFallback")
     @RequestMapping("/getSleepAPI02")
     public Problem getSleepAPI02() {
         //用来判断是否有线程池隔离
         log.error("getSleepAPI02:" + "线程池名称:" + Thread.currentThread().getName());
 
+        return memberServiceFeign.getSleepAPI();
+    }
+    //如果没配置@HystrixCommand，那么久没有线程池隔离
+    @RequestMapping("/getSleepAPI03")
+    public Problem getSleepAPI03() {
+        //用来判断是否有线程池隔离
+        log.error("getSleepAPI02:" + "线程池名称:" + Thread.currentThread().getName());
         return memberServiceFeign.getSleepAPI();
     }
 

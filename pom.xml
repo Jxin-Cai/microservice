@@ -10,6 +10,7 @@
     <modules>
         <module>parent</module>
         <module>center</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
     <name>microservice</name>
