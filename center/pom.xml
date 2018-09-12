@@ -23,7 +23,7 @@
         <!-- springboot的版本-->
         <springboot.version>2.0.4.RELEASE</springboot.version>
         <!-- springcloud的版本-->
-        <spring.cloud.version>Finchley.M7</spring.cloud.version>
+        <spring.cloud.version>Finchley.RC2</spring.cloud.version>
     </properties>
 
     <dependencyManagement>
@@ -55,11 +55,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- SpringBoot整合eureka服务端 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
+
     </dependencies>
 
     <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->

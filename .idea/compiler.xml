@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="center-eureka01" />
         <module name="center-eureka02" />
+        <module name="config-cloud" />
+        <module name="gateway-zuul" />
         <module name="microservice-jxin-service-api-member" />
         <module name="microservice-jxin-service-api-order" />
         <module name="microservice-jxin-service-config" />

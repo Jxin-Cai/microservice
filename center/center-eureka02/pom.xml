@@ -13,5 +13,11 @@
 
     <artifactId>center-eureka02</artifactId>
     <packaging>jar</packaging>
-
+<dependencies>
+    <!-- SpringBoot整合eureka服务端 -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+</dependencies>
 </project>

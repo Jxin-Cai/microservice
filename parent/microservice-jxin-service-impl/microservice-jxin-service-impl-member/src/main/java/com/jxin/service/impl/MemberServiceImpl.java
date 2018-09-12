@@ -24,6 +24,7 @@ public class MemberServiceImpl implements MemberService {
     @Value("${server.port}")
     private String serverPort;
 
+    @Override
     @GetMapping(value = "/getMember",produces = MediaType.APPLICATION_JSON_VALUE)
     public Problem getMember(String name) {
            //int i = 1/0;
@@ -33,6 +34,7 @@ public class MemberServiceImpl implements MemberService {
                                             .phone("123456789")
                                             .build());
     }
+    @Override
     @GetMapping(value = "/getSleepAPI",produces = MediaType.APPLICATION_JSON_VALUE)
     public Problem getSleepAPI() {
         System.out.println("开始休眠1.5秒");
