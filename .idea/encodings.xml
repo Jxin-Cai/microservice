@@ -16,7 +16,9 @@
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent/microservice-jxin-service-utils" charset="UTF-8" />
   </component>
 </project>

@@ -6,18 +6,29 @@
         <artifactId>microservice-jxin-service-impl</artifactId>
         <groupId>com.jxin</groupId>
         <version>${revision}</version>
-        <!-- 以当前文件为基准的父工程的pom.xml文件的相对路径 -->
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>microservice-jxin-service-impl-member2</artifactId>
+    <artifactId>microservice-jxin-service-impl-order2</artifactId>
     <packaging>jar</packaging>
     <dependencies>
-        <!-- SpringBoot整合eureka客户端 -->
+        <!--SpringCloud consul-server -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
+        <!-- actuator监控中心 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- 对order接口的依赖-->
+        <dependency>
+            <groupId>com.jxin</groupId>
+            <artifactId>microservice-jxin-service-api-order</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- 对member接口的依赖-->
         <dependency>
             <groupId>com.jxin</groupId>
             <artifactId>microservice-jxin-service-api-member</artifactId>

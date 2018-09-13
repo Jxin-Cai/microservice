@@ -13,6 +13,11 @@
     <artifactId>microservice-jxin-service-impl-member</artifactId>
     <packaging>jar</packaging>
     <dependencies>
+        <!-- SpringBoot整合eureka客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.jxin</groupId>
             <artifactId>microservice-jxin-service-api-member</artifactId>

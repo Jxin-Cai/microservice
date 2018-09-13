@@ -15,7 +15,9 @@
         <module name="microservice-jxin-service-config" />
         <module name="microservice-jxin-service-impl-member" />
         <module name="microservice-jxin-service-impl-member2" />
+        <module name="microservice-jxin-service-impl-member3" />
         <module name="microservice-jxin-service-impl-order" />
+        <module name="microservice-jxin-service-impl-order2" />
         <module name="microservice-jxin-service-utils" />
       </profile>
     </annotationProcessing>

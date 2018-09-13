@@ -1,0 +1,38 @@
+###服务启动端口号
+server:
+  port: 8005
+###服务名称(服务注册到consul名称)
+spring:
+    application:
+        name: app-jxin-order
+####consul注册中心地址
+    cloud:
+      consul:
+        host: 192.168.99.100
+        port: 8500
+        discovery:
+          hostname: localhost
+ribbon:
+###指的是建立连接所用的时间，适用于网络状况正常的情况下，服务两端从未连接到连接所用的时间。
+ ReadTimeout: 5000
+###指的是建立连接后从服务器读取到可用资源所用的时间。
+ ConnectTimeout: 5000
+
+###开启Hystrix断路器
+feign:
+  hystrix:
+    enabled: 'true'
+
+#### hystrix禁止服务超时时间，生产调整会5-10s
+hystrix:
+ command:
+   default:
+      execution:
+       timeout:
+        enabled: false
+###开启所有监控中心接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

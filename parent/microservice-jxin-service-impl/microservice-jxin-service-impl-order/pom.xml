@@ -11,6 +11,11 @@
     <artifactId>microservice-jxin-service-impl-order</artifactId>
     <packaging>jar</packaging>
     <dependencies>
+        <!-- SpringBoot整合eureka客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
        <!-- 对order接口的依赖-->
         <dependency>
             <groupId>com.jxin</groupId>
