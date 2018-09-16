@@ -5,6 +5,17 @@ server:
 spring:
     application:
         name: app-jxin-member
+    activemq:
+      user: admin
+      password: admin
+      #整合jms测试，安装在别的机器，防火墙和端口号记得开放
+      #集群配置
+      #spring.activemq.broker-url=failover:(tcp://localhost:61616,tcp://localhost:61617)
+      broker-url: http://192.168.99.100:61616
+      #下列配置要增加依赖
+      pool:
+        enabled: true
+        max-connections: 100
 ###服务注册到eureka地址
 eureka:
   instance:

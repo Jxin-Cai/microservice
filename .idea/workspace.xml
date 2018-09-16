@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fe74c-d3d1-4cbc-a63a-a97feda18e6d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/java/com/jxin/service/Member3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/java/com/jxin/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/fallback/MemberFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/feign/MemberServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-order/src/main/java/com/jxin/service/api/JmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-config/src/main/java/com/jxin/service/config/JmsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/DoubleJms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/OnlyJms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/SendJmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/jms/JmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/Order2ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config-cloud/src/main/resources/springcould-config" beforeDir="false" afterPath="$PROJECT_DIR$/config/config-cloud/src/main/resources/springcould-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
     </list>
@@ -69,91 +67,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml">
+      <file leaf-file-name="OrderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="30" selection-start-line="30" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="25">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/resources/application.yml">
+      <file leaf-file-name="JmsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/jms/JmsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberServiceFeign.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/feign/MemberServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberFallback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/fallback/MemberFallback.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Order2Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="418">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendJmsServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/SendJmsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="40" selection-start-line="40" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
             </state>
           </provider>
         </entry>
@@ -179,17 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-config/pom.xml" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-config/src/main/java/com/jxin/service/config/ProblemConfiguration.java" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/config/ProblemConfiguration.java" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-member/src/main/java/com/jxin/service/api/MemberService.java" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-order/src/main/java/com/jxin/service/api/OrderService.java" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java" />
-        <option value="$PROJECT_DIR$/center-eureka2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml" />
-        <option value="$PROJECT_DIR$/center-eureka2/src/main/java/com/jxin/center/Center2Application.java" />
         <option value="$PROJECT_DIR$/center-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/center-eureka2/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -197,11 +171,9 @@
         <option value="$PROJECT_DIR$/center/center-eureka01/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-utils/pom.xml" />
         <option value="$PROJECT_DIR$/center/center-eureka02/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java" />
         <option value="$PROJECT_DIR$/center/center-eureka01/src/main/java/com/jxin/center/Center01Application.java" />
         <option value="$PROJECT_DIR$/center/center-eureka02/src/main/java/com/jxin/center/Center02Application.java" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-utils/src/main/java/com/jxin/service/utils/ProblemUtil.java" />
-        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/src/main/java/com/jxin/service/impl/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/fallback/MemberFallback.java" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/feign/MemberServiceFeign.java" />
@@ -221,7 +193,6 @@
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/config/config-cloud/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/pom.xml" />
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/pom.xml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/pom.xml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/pom.xml" />
@@ -230,6 +201,20 @@
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/OrderApplication.java" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/pom.xml" />
         <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/Order2ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-order/src/main/java/com/jxin/service/api/JmsService.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/OnlyJms.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/DoubleJms.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/jms/JmsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-config/src/main/java/com/jxin/service/config/JmsConfiguration.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/SendJmsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -253,24 +238,14 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="7" />
     <option name="width" value="1126" />
@@ -284,8 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,42 +271,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
@@ -349,14 +289,14 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,7 +304,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -373,7 +313,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -383,51 +323,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -438,7 +334,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -450,7 +346,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -463,21 +359,7 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jxin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -491,7 +373,143 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
               <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-jxin-service-impl-order2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="jms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-jxin-service-impl-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -500,7 +518,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +528,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-member" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../electric-report" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -520,6 +538,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jxin.service.impl" />
       <recent name="com.jxin.center" />
       <recent name="com.jxin.service.config" />
       <recent name="com.jxin.service.utils" />
@@ -550,7 +569,7 @@
     </option>
     <option name="contentProportion" value="0.2641363" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Order2Application">
+  <component name="RunManager" selected="Spring Boot.MemberApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -580,25 +599,35 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="Member2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-jxin-service-impl-member2" />
+    <configuration name="Center02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="center-eureka02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jxin.service.*" />
+          <option name="PATTERN" value="com.jxin.center.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.service.Member2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.center.Center02Application" />
     </configuration>
-    <configuration name="Member3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-jxin-service-impl-member3" />
+    <configuration name="Config01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-cloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jxin.service.*" />
+          <option name="PATTERN" value="com.jxin.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.service.Member3Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.config.Config01Application" />
+    </configuration>
+    <configuration name="Gateway01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxin.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.gateway.Gateway01Application" />
     </configuration>
     <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-jxin-service-impl-member" />
@@ -609,16 +638,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.service.MemberApplication" />
-    </configuration>
-    <configuration name="Order2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-jxin-service-impl-order2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jxin.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jxin.service.Order2Application" />
     </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-jxin-service-impl-order" />
@@ -653,19 +672,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Center02Application" />
+      <item itemvalue="Spring Boot.Config01Application" />
+      <item itemvalue="Spring Boot.Gateway01Application" />
       <item itemvalue="Spring Boot.MemberApplication" />
-      <item itemvalue="Spring Boot.Member2Application" />
       <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.Member3Application" />
-      <item itemvalue="Spring Boot.Order2Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Member3Application" />
-        <item itemvalue="Spring Boot.Order2Application" />
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.Member2Application" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.Gateway01Application" />
+        <item itemvalue="Spring Boot.Config01Application" />
+        <item itemvalue="Spring Boot.Center02Application" />
       </list>
     </recent_temporary>
   </component>
@@ -692,12 +711,15 @@
       <workItem from="1536569569439" duration="13284000" />
       <workItem from="1536727919184" duration="1362000" />
       <workItem from="1536729380715" duration="9824000" />
-      <workItem from="1536851843754" duration="3958000" />
+      <workItem from="1536851843754" duration="4391000" />
+      <workItem from="1536889871875" duration="47000" />
+      <workItem from="1536889926667" duration="3498000" />
+      <workItem from="1536939254842" duration="8724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78657000" />
+    <option name="totallyTimeSpent" value="91359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,24 +741,25 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.4698795" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
-      <window_info id="Structure" order="1" sideWeight="0.28782287" side_tool="true" visible="true" weight="0.29500756" />
+      <window_info id="Structure" order="1" sideWeight="0.24556962" side_tool="true" visible="true" weight="0.3245083" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.11876076" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.5490534" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.24784854" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32874355" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" visible="true" weight="0.53356284" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32874355" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" visible="true" weight="0.32013768" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.5869191" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34767643" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.48020655" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40103272" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7121771" visible="true" weight="0.29500756" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.58003443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75443035" visible="true" weight="0.3245083" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.50236964" side_tool="true" weight="0.3260212" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -744,7 +767,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,101 +777,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.M1/spring-cloud-openfeign-core-2.0.0.M1.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/util/ContextSelectorStaticBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/selector/DefaultContextSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/org/slf4j/impl/StaticLoggerBinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/util/LoggerNameUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="357" selection-start-line="357" selection-end-line="357" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/AbstractCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1.jar!/feign/hystrix/HystrixInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/src/main/java/com/jxin/service/impl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/fallback/MemberFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/center/center-eureka02/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" selection-start-line="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/center/center-eureka01/src/main/java/com/jxin/center/Center01Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -906,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/gateway-zuul/src/main/java/com/jxin/gateway/filter/pre/TokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config-cloud/src/main/java/com/jxin/config/Config01Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -934,20 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/gateway-zuul/src/main/java/com/jxin/gateway/Gateway01Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config-cloud/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -962,31 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="24" column="30" lean-forward="true" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -997,20 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/java/com/jxin/service/Member3Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,20 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="20" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="30" selection-start-line="30" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/feign/MemberServiceFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1063,46 +928,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/fallback/MemberFallback.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/Order2Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/fallback/MemberFallback.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/Order2ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member3/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,10 +962,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="396">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.0.8.RELEASE/spring-jms-5.0.8.RELEASE.jar!/org/springframework/jms/core/JmsMessagingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/MemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/gateway-zuul/src/main/java/com/jxin/gateway/Gateway01Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/gateway-zuul/src/main/java/com/jxin/gateway/filter/pre/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="55" column="58" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-config/src/main/java/com/jxin/service/config/JmsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/DoubleJms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/jms/OnlyJms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/java/com/jxin/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-cloud/src/main/resources/springcould-config/gateway/app-jxin-zuul-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-member/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-api/microservice-jxin-service-api-order/src/main/java/com/jxin/service/api/JmsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.8.RELEASE/spring-messaging-5.0.8.RELEASE.jar!/org/springframework/messaging/core/AbstractMessageSendingTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.8.RELEASE/spring-messaging-5.0.8.RELEASE-sources.jar!/org/springframework/messaging/core/AbstractMessageSendingTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/jms/JmsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent/microservice-jxin-service-impl/microservice-jxin-service-impl-order/src/main/java/com/jxin/service/impl/SendJmsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="40" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,7 +1213,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservice-jxin-service-impl-member3</last-edited>
+          <last-edited>microservice-jxin-service-impl</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1194,7 +1237,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

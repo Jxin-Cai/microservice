@@ -1,11 +1,23 @@
 ###服务启动端口号
 server:
   port: 8002
-###服务名称(服务注册到eureka名称)  
+
 spring:
     application:
         name: app-jxin-order
 ###服务注册到eureka地址
+    activemq:
+      user: admin
+      password: admin
+      #整合jms测试，安装在别的机器，防火墙和端口号记得开放
+      #集群配置
+      #spring.activemq.broker-url=failover:(tcp://localhost:61616,tcp://localhost:61617)
+      broker-url: http://192.168.99.100:61616
+      #下列配置要增加依赖
+      pool:
+        enabled: true
+        max-connections: 100
+###服务名称(服务注册到eureka名称)
 eureka:
   instance:
 ###注册中心的ip地址
